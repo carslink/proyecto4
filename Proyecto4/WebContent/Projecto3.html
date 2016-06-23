@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Marker with images</title>
+<link rel="stylesheet" type="text/css" href="css/redes.css">
+<link rel="stylesheet" type="text/css" href="css/slide.css">
+<link href="http://code.google.com/apis/maps/documentation/javascript/examples/default.css" 
+rel="stylesheet" type="text/css" /> 
+
+<script type="text/javascript" 
+src="http://maps.google.com/maps/api/js?sensor=false">
+</script>
+<script type="text/javascript" src="js/imarkers.js"></script>
+
+</head>
+
+
+<body>
+
+<div id="header" >
+	<img alt="logo" src="images/logo.png"/>
+	<span class="headerBanner">Parallax Global</span>
+	<a href="http://stevestangl.com/parallax/partners.html" class="headerText">Contact</a>
+	<a href="http://stevestangl.com/parallax/partners.html" class="headerText">About us</a>
+	</div>
+	<div id="middle">
+	<div id="left">
+	
+<br/>
+
+	<a href="Projecto3.html"><input type="submit" name="Home" value="Home" class="Boton"/></a><br/><br/>
+	<a href="Aranas.html"><input type="submit" name="Arana" value="Arana" class="Boton" /></a><br/><br/>
+	<a href="ojeda.html"><input type="submit" name="Ojeda" value="Ojeda" class="Boton" /></a><br/><br/>
+	<a href="orizaba.html"><input type="submit" name="Orizaba" value="Orizaba" class="Boton" /></a><br/><br/>
+	<a href="quiroga.html"><input type="submit" name="Quiroga" value="Quiroga"  class="Boton" /></a><br/><br/>
+
+	</div>
+	
+	
+	
+	
+
+<div class="visible-lg">
+  <div class="social">
+  <ul id="boton">
+    <li><a href="https://www.facebook.com/ParallaxMary/" target="_blank" class="icon-facebook2"></a></li>
+    <li><a href="https://twitter.com/pemex?lang=es" target="_blank" class="icon-twitter"></a></li>
+    <li><a href="http://www.whatsapp.com" target="_blank" class="icon-whatsapp"></a></li>
+    <li><a href="http://www.gmail.com.com" target="_blank" class="icon-mail"></a></li>
+  </ul>
+  </div>
+  </div>
+<div>
+<strong>Start:</strong>
+<select id="start" onchange="calcRoute();">
+	<option value="Tampico, Tamaulipas, Mexico">Tampico  </option>
+	
+	<option value="Veracruz, Veracruz-Llave, Mexico">Veracruz</option>
+	<option value="Campeche, Campeche, Mexico">Campeche</option>
+
+	<option value="Guadalajara, Jalisco, Mexico">Guadalajara</option>
+	<option value="Aguascalientes, Aguascalientes, Mexico">Aguascalientes</option>
+	<option value="San Luis Potosi, San luis Potosi, Mexico">San Luis Potosi</option>
+	<option value="Monterrey, Nuevo Leon,Mexico">Monterrey</option>
+	<option value="Cancun, Cancun,Mexico">Cancun</option>
+	<option value="Hermosillo, Sonora,Mexico">Hermosillo</option>
+	<option value="Puebla, Puebla,Mexico">Puebla</option>
+	
+</select>
+<strong>Between:</strong>
+<select id="Between" onchange="calcRoute();">
+	<option value="Tampico, Tamaulipas, Mexico">Tampico  </option>
+	
+	<option value="Veracruz, Veracruz-Llave, Mexico">Veracruz</option>
+	<option value="Campeche, Campeche, Mexico">Campeche</option>
+
+	<option value="Guadalajara, Jalisco, Mexico">Guadalajara</option>
+	<option value="Aguascalientes, Aguascalientes, Mexico">Aguascalientes</option>
+	<option value="San Luis Potosi, San luis Potosi, Mexico">San Luis Potosi</option>
+	<option value="Monterrey, Nuevo Leon,Mexico">Monterrey</option>
+	<option value="Cancun, Cancun,Mexico">Cancun</option>
+	<option value="Hermosillo, Sonora,Mexico">Hermosillo</option>
+	<option value="Puebla, Puebla,Mexico">Puebla</option>
+	
+	
+</select>
+<strong>End:</strong>
+<select id="end" onchange="calcRoute1();">
+	<option value="Tampico, Tamaulipas, Mexico">Tampico</option>
+	
+	<option value="Veracruz, Veracruz-Llave, Mexico">Veracruz</option>
+	<option value="Campeche, Campeche, Mexico">Campeche</option>
+	<option value="Guadalajara, Jalisco, Mexico">Guadalajara</option>
+	<option value="Aguascalientes, Aguascalientes, Mexico">Aguascalientes</option>
+	<option value="San Luis Potosi, San luis Potosi, Mexico">San Luis Potosi</option>
+	<option value="Monterrey, Nuevo Leon,Mexico">Monterrey</option>
+	<option value="Cancun, Cancun,Mexico">Cancun</option>
+	<option value="Hermosillo, Sonora,Mexico">Hermosillo</option>
+	<option value="Puebla, Puebla,Mexico">Puebla</option>
+
+</select>
+</div>
+<h3>Distance: <strong id="distance">0</strong> km.  Months:<strong id="meses">0</strong>Robots<strong id="robot">0</strong></h3><br>
+
+<h3>Distance2: <strong id="distance2">0</strong> km.  Months:<strong id="meses2">0</strong>Robots<strong id="robots">0</strong></h3><br>
+
+	<div  id="div_map"   
+		style="width: 800px; height:600px"> </div>
+
+		<div id="footer">
+		<hr />
+		<p>Parallax Global<br/></p>
+		<a href="http://stevestangl.com/parallax/partners.html">Contact</a>
+		
+	</div>
+	</div>
+</body>
+</html>

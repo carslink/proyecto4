@@ -1,0 +1,168 @@
+* {
+	margin:0;
+	padding:0;
+}
+   
+.slidesjs-pagination {
+	background:#424242;
+	list-style:none;
+	overflow:hidden;
+}
+ 
+.slidesjs-pagination li {
+	float:left;
+}
+ 
+.slidesjs-pagination li a {
+	display:block;
+	padding:10px 20px;
+	color:#fff;
+	text-decoration:none;
+}
+ 
+.slidesjs-pagination li a:hover {
+	background:#000;
+}
+ 
+.slides .active {
+	background:#000;
+}
+ 
+.slidesjs-navigation{
+	background:#424242;
+	color:#fff;
+	text-decoration:none;
+	display:inline-block;
+	padding:10px 20px;
+	float:right;
+}
+
+.slidesjs-navigation:hover{
+	background:#000;
+}
+
+.social{
+	position: fixed;
+	right: 0;
+	top: 200px;
+	z-index: 2000;
+}
+.social ul{
+	list-style: none;
+}
+
+.social ul li a{
+	display: inline-block;
+	color: #fff;
+	background: #000;
+	padding: 15px 15px;
+	text-decoration: none;
+	-webkit-transition: all 700ms ease;
+	-o-transition: all 700ms ease;
+	transition: all 700ms ease;
+}
+
+.social ul li .icon-facebook2{background:#3b5998;}
+
+.social ul li .icon-twitter{background:#55acee;}
+.social ul li .icon-whatsapp{background:#4dc247;}
+.social ul li .icon-mail{background:#007ee5;}
+
+.social ul li a:hover{
+	padding: 10px 7px;
+	background: pink;
+}
+
+#header{
+	text-align: center;
+	border-bottom: 3px single gray;
+	background-color: #800000;
+
+}
+
+.headerBanner{
+	font-color: #ffff80;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 40px;
+	height: 41px;
+}
+
+.headerSmallText{
+	background-color: #ffff80;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	height: 12px;
+	line-height: 1.09;
+	margin: 0 0 0 8px;
+	padding: 0 0 0 8px;
+	float: rigth;
+	
+}
+
+#map{
+	float: center;
+	width: 70%;
+	padding-left: 1%;
+	padding-right: 1%;
+	min-height: 30em;
+	
+}
+
+#left{
+	float: left;
+	width: 10%;
+	min-height:  30em;
+	
+
+	}
+	
+	
+#center{
+	float: left;
+	width: 80%;
+	padding-left: 1%;
+	padding-right: 1%;
+	min-height:  30em;
+}
+
+#center-three-column{
+	float: left;
+	width: 70%;
+	padding-left: 1%;
+	padding-right: 1%;
+	min-height:  30em;
+}
+
+
+#rigth{
+	float: left;
+	width: 10%;
+	padding-left: 2%;
+	padding-right: 1%;
+	min-height:  30em;
+	}
+
+#footer{
+	font-size: 10px;
+	height: 11px;
+	width: 100%;
+	clear: both;
+	text-align: center;
+}
+
+#middle{
+	background: #ffff80;
+}
+
+IMG.imgcenter{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border:none;
+	
+}
+.Boton{
+	background: #400000;
+	color:white;
+	
+}
